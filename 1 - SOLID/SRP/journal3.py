@@ -24,17 +24,6 @@ class PersistantManager:
         file.write(str(journal))
         file.close()
 
-    # def save(self, filename):
-    #     file = open(filename, 'w')
-    #     file.write(str(self))
-    #     file.close()
-
-    # def load(self, filename):
-    #     pass
-
-    # def load_from_web(self, url):
-    #     pass
-
 
 j = Journal()
 j.add_entry('I cried today.')
